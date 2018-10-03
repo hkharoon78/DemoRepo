@@ -3,13 +3,14 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.qa.tests.TestLogin">
+      <class name="com.qa.logtest.LogLogin">
         <methods>
-          <include name="setUp"/>
           <include name="tearDown"/>
-          <include name="testLogin"/>
+          <include name="freeCrmTestTitle"/>
+          <include name="setUp"/>
+          <include name="freeCrmLogo"/>
         </methods>
-      </class> <!-- com.qa.tests.TestLogin -->
+      </class> <!-- com.qa.logtest.LogLogin -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

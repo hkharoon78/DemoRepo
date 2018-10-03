@@ -1,25 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="41969" started-at="2018-10-03T08:02:09Z" finished-at="2018-10-03T08:02:51Z">
+  <suite name="Default suite" duration-ms="77324" started-at="2018-10-03T13:22:12Z" finished-at="2018-10-03T13:23:30Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="41969" started-at="2018-10-03T08:02:09Z" finished-at="2018-10-03T08:02:51Z">
-      <class name="com.qa.tests.TestLogin">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.tests.TestLogin@4501b7af]" name="setUp" is-config="true" duration-ms="32498" started-at="2018-10-03T08:02:09Z" finished-at="2018-10-03T08:02:42Z">
+    <test name="Default test" duration-ms="77324" started-at="2018-10-03T13:22:12Z" finished-at="2018-10-03T13:23:30Z">
+      <class name="com.qa.logtest.LogLogin">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.logtest.LogLogin@5b275dab]" name="setUp" is-config="true" duration-ms="39121" started-at="2018-10-03T13:22:12Z" finished-at="2018-10-03T13:22:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="testLogin()[pri:0, instance:com.qa.tests.TestLogin@4501b7af]" name="testLogin" duration-ms="8387" started-at="2018-10-03T08:02:42Z" finished-at="2018-10-03T08:02:50Z">
+        <test-method status="PASS" signature="freeCrmTestTitle()[pri:1, instance:com.qa.logtest.LogLogin@5b275dab]" name="freeCrmTestTitle" duration-ms="46" started-at="2018-10-03T13:22:52Z" finished-at="2018-10-03T13:22:52Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testLogin -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.tests.TestLogin@4501b7af]" name="tearDown" is-config="true" duration-ms="1017" started-at="2018-10-03T08:02:50Z" finished-at="2018-10-03T08:02:51Z">
+        </test-method> <!-- freeCrmTestTitle -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.logtest.LogLogin@5b275dab]" name="tearDown" is-config="true" duration-ms="988" started-at="2018-10-03T13:22:52Z" finished-at="2018-10-03T13:22:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.qa.tests.TestLogin -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.logtest.LogLogin@5b275dab]" name="setUp" is-config="true" duration-ms="36268" started-at="2018-10-03T13:22:53Z" finished-at="2018-10-03T13:23:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="freeCrmLogo()[pri:2, instance:com.qa.logtest.LogLogin@5b275dab]" name="freeCrmLogo" duration-ms="84" started-at="2018-10-03T13:23:29Z" finished-at="2018-10-03T13:23:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- freeCrmLogo -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.logtest.LogLogin@5b275dab]" name="tearDown" is-config="true" duration-ms="734" started-at="2018-10-03T13:23:29Z" finished-at="2018-10-03T13:23:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.logtest.LogLogin -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
